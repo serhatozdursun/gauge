@@ -31,3 +31,21 @@ Read more about [Step implementations in Java](http://getgauge.io/documentation/
 ```
 mvn test
 ```
+### Gauge version:
+```
+1.0.8
+```
+Plugins
+-------
+```
+html-report (4.0.10)
+java (0.7.4)
+screenshot (0.0.1)
+spectacle (0.1.4)
+xml-report (0.2.3)
+```
+java version
+--------
+```
+1.8.0_172
+```
