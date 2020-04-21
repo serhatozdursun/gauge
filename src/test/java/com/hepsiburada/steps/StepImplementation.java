@@ -17,7 +17,7 @@ public class StepImplementation extends BaseTest {
     }
 
     @Step("hepsiburada girişe tıkladı")
-    public void clickLogin() throws IOException {
+    public void clickLogin(){
 
         homePage.assertHomeIsLoaded()
                 .clickLogin();

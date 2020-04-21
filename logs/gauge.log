@@ -2792,3 +2792,150 @@ Total time taken: 28.635s
 21-04-2020 19:40:04.249 [Gauge] [INFO] 
 Total time taken: 27.625s
 21-04-2020 19:40:04.250 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+21-04-2020 19:55:58.526 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Serhat's PC\IdeaProjects\gauge\.gauge\screenshots
+21-04-2020 19:55:58.528 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2020 19:55:58.529 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2020 19:55:58.529 [Gauge] [DEBUG] Plugin xml-report is already installed.
+21-04-2020 19:55:58.530 [Gauge] [DEBUG] Parsing started.
+21-04-2020 19:55:58.530 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2020 19:55:58.538 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2020 19:55:58.538 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2020 19:55:58.539 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2020 19:55:58.539 [Gauge] [DEBUG] Parsing completed.
+21-04-2020 19:55:59.025 [Gauge] [DEBUG] Checking updates...
+21-04-2020 19:55:59.028 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/csharp?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:00.286 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:00.559 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:00.984 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:01.582 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:01.807 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62185
+21-04-2020 19:56:01.955 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62185
+21-04-2020 19:56:01.955 [Gauge] [DEBUG] Validation started.
+21-04-2020 19:56:02.133 [Gauge] [DEBUG] Validation completed.
+21-04-2020 19:56:02.133 [Gauge] [DEBUG] Run started
+21-04-2020 19:56:02.134 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2020 19:56:02.154 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49246
+21-04-2020 19:56:02.155 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49246
+21-04-2020 19:56:02.156 [Gauge] [DEBUG] Starting Xml Report plugin
+21-04-2020 19:56:02.174 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49416
+21-04-2020 19:56:02.181 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49416
+21-04-2020 19:56:02.181 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2020 19:56:02.663 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:04.193 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:04.968 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:06.406 [java] [DEBUG] Scanning packages for steps
+21-04-2020 19:56:06.424 [java] [DEBUG] Scanning packages for hooks
+21-04-2020 19:56:15.432 [java] [CRITICAL] Error in thread 8
+null
+java.lang.NullPointerException
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:45)
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:176)
+	at com.thoughtworks.gauge.execution.TaskExecutor.run(TaskExecutor.java:22)
+21-04-2020 19:56:17.779 [xml-report] [INFO] Successfully generated xml-report to => C:\Users\Serhat's PC\IdeaProjects\gauge\reports\xml-report
+21-04-2020 19:56:17.780 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2020 19:56:17.802 [html-report] [INFO] Successfully generated html-report to => C:\Users\Serhat's PC\IdeaProjects\gauge\reports\html-report\index.html
+21-04-2020 19:56:17.802 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Serhat's PC\AppData\Roaming\gauge\plugins\html-report\4.0.10\themes\default
+21-04-2020 19:56:17.802 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2020 19:56:17.802 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+21-04-2020 19:56:17.803 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:62185: connectex: No connection could be made because the target machine actively refused it."
+21-04-2020 19:56:17.803 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+21-04-2020 19:56:17.803 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21-04-2020 19:56:17.803 [Gauge] [INFO] 
+Total time taken: 15.641s
+21-04-2020 19:56:17.804 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+21-04-2020 19:56:54.292 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Serhat's PC\IdeaProjects\gauge\.gauge\screenshots
+21-04-2020 19:56:54.294 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2020 19:56:54.295 [Gauge] [DEBUG] Plugin xml-report is already installed.
+21-04-2020 19:56:54.295 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2020 19:56:54.295 [Gauge] [DEBUG] Parsing started.
+21-04-2020 19:56:54.295 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2020 19:56:54.307 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2020 19:56:54.307 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2020 19:56:54.308 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2020 19:56:54.308 [Gauge] [DEBUG] Parsing completed.
+21-04-2020 19:56:54.674 [Gauge] [DEBUG] Checking updates...
+21-04-2020 19:56:54.677 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/csharp?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:56.476 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:56.839 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:57.200 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:57.525 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62477
+21-04-2020 19:56:57.565 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:57.683 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62477
+21-04-2020 19:56:57.683 [Gauge] [DEBUG] Validation started.
+21-04-2020 19:56:57.865 [Gauge] [DEBUG] Validation completed.
+21-04-2020 19:56:57.865 [Gauge] [DEBUG] Run started
+21-04-2020 19:56:57.866 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2020 19:56:57.886 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:57.887 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49534
+21-04-2020 19:56:57.888 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49534
+21-04-2020 19:56:57.889 [Gauge] [DEBUG] Starting Xml Report plugin
+21-04-2020 19:56:57.906 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49708
+21-04-2020 19:56:57.907 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49708
+21-04-2020 19:56:57.907 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2020 19:56:59.343 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:56:59.921 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:57:02.034 [java] [DEBUG] Scanning packages for steps
+21-04-2020 19:57:02.053 [java] [DEBUG] Scanning packages for hooks
+21-04-2020 19:57:11.310 [java] [CRITICAL] Error in thread 8
+null
+java.lang.NullPointerException
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:45)
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:176)
+	at com.thoughtworks.gauge.execution.TaskExecutor.run(TaskExecutor.java:22)
+21-04-2020 19:57:13.656 [xml-report] [INFO] Successfully generated xml-report to => C:\Users\Serhat's PC\IdeaProjects\gauge\reports\xml-report
+21-04-2020 19:57:13.657 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2020 19:57:13.690 [html-report] [INFO] Successfully generated html-report to => C:\Users\Serhat's PC\IdeaProjects\gauge\reports\html-report\index.html
+21-04-2020 19:57:13.691 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Serhat's PC\AppData\Roaming\gauge\plugins\html-report\4.0.10\themes\default
+21-04-2020 19:57:13.691 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2020 19:57:13.691 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+21-04-2020 19:57:13.692 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:62477: connectex: No connection could be made because the target machine actively refused it."
+21-04-2020 19:57:13.692 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+21-04-2020 19:57:13.692 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21-04-2020 19:57:13.692 [Gauge] [INFO] 
+Total time taken: 15.787s
+21-04-2020 19:57:13.693 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+21-04-2020 19:58:27.220 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Serhat's PC\IdeaProjects\gauge\.gauge\screenshots
+21-04-2020 19:58:27.222 [Gauge] [DEBUG] Plugin java is already installed.
+21-04-2020 19:58:27.223 [Gauge] [DEBUG] Plugin html-report is already installed.
+21-04-2020 19:58:27.223 [Gauge] [DEBUG] Plugin xml-report is already installed.
+21-04-2020 19:58:27.224 [Gauge] [DEBUG] Parsing started.
+21-04-2020 19:58:27.224 [Gauge] [DEBUG] Started concepts parsing.
+21-04-2020 19:58:27.232 [Gauge] [DEBUG] 0 concepts parsing completed.
+21-04-2020 19:58:27.232 [Gauge] [DEBUG] Started specifications parsing.
+21-04-2020 19:58:27.233 [Gauge] [DEBUG] 1 specifications parsing completed.
+21-04-2020 19:58:27.233 [Gauge] [DEBUG] Parsing completed.
+21-04-2020 19:58:27.694 [Gauge] [DEBUG] Checking updates...
+21-04-2020 19:58:27.696 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/csharp?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:29.168 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:29.462 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:29.739 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:30.006 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62816
+21-04-2020 19:58:30.039 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:30.152 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62816
+21-04-2020 19:58:30.152 [Gauge] [DEBUG] Validation started.
+21-04-2020 19:58:30.317 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:30.323 [Gauge] [DEBUG] Validation completed.
+21-04-2020 19:58:30.323 [Gauge] [DEBUG] Run started
+21-04-2020 19:58:30.325 [Gauge] [DEBUG] Starting Html Report plugin
+21-04-2020 19:58:30.343 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50705
+21-04-2020 19:58:30.344 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50705
+21-04-2020 19:58:30.345 [Gauge] [DEBUG] Starting Xml Report plugin
+21-04-2020 19:58:30.363 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50895
+21-04-2020 19:58:30.364 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50895
+21-04-2020 19:58:30.364 [Gauge] [DEBUG] Initialising suite data store.
+21-04-2020 19:58:30.580 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:30.965 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=csharp,dotnet,html-report,java,python,screenshot,spectacle,xml-report&o=windows&a=amd64
+21-04-2020 19:58:34.164 [java] [DEBUG] Scanning packages for steps
+21-04-2020 19:58:34.176 [java] [DEBUG] Scanning packages for hooks
+21-04-2020 19:58:59.105 [html-report] [DEBUG] Transformed SuiteResult to report structure
+21-04-2020 19:58:59.170 [html-report] [INFO] Successfully generated html-report to => C:\Users\Serhat's PC\IdeaProjects\gauge\reports\html-report\index.html
+21-04-2020 19:58:59.170 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Serhat's PC\AppData\Roaming\gauge\plugins\html-report\4.0.10\themes\default
+21-04-2020 19:58:59.174 [xml-report] [INFO] Successfully generated xml-report to => C:\Users\Serhat's PC\IdeaProjects\gauge\reports\xml-report
+21-04-2020 19:58:59.174 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+21-04-2020 19:58:59.174 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+21-04-2020 19:58:59.786 [Gauge] [DEBUG] Runner with PID:23176 has exited
+21-04-2020 19:58:59.786 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+21-04-2020 19:58:59.786 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+21-04-2020 19:58:59.786 [Gauge] [INFO] 
+Total time taken: 28.781s
+21-04-2020 19:58:59.787 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
