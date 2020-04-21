@@ -1,0 +1,821 @@
+
+	
+	
+  <!doctype html>
+  <html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta charset="utf-8" />
+    <title>Gauge Test Results</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/open-sans.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+  <body>
+  <header class="top">
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <a href=".."><img src="../images/gaugeLogo.png" alt="Report logo"></a>
+        </div>
+        <h2 class="project">Project: gauge</h2>
+      </div>
+    </div>
+  </header>
+  <main class="main-container">
+  <div class="container">
+
+	
+  <div class="report-overview">
+   
+  <div class="report_chart">
+    <div class="chart">
+      <svg id="pie-chart" data-results="0,1,0" data-total="1">
+        <path class="status failed" />
+        <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
+        <path class="status passed" />
+        <path class="shadow passed" data-status="passed"><title>Passed: 1/1</title></path>
+        <path class="status skipped" />
+        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
+      </svg>
+    </div>
+  </div>
+
+   
+  <div class="report_test-results">
+    <div class="report_test-result specs">
+        <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
+        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">1</span></div>
+        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
+    </div>
+    <div class="report_test-result scenarios">
+        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">1</span></div>
+        <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
+    </div>
+  </div>
+
+    <div class="report_details">
+      
+  <ul>
+    <li>
+      <label>Environment </label>
+      <span>default</span>
+    </li>
+    
+    <li>
+      <label>Success Rate </label>
+      <span>100%</span>
+    </li>
+    <li>
+      <label>Total Time </label>
+      <span>00:00:27</span>
+    </li>
+    <li>
+      <label>Generated On </label>
+      <span>Apr 21, 2020 at 7:39pm</span>
+    </li>
+  </ul>
+
+      
+  
+
+      
+  
+  
+
+
+    </div>
+  </div>
+
+
+	
+
+	
+
+	
+		<div class="specifications">
+		
+  
+    <aside class="sidebar">
+      <h3 class="title">Specifications</h3>
+      <div class="searchbar">
+        <input id="searchSpecifications" placeholder="Type specification or tag name" type="text" />
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="specs-sorting">
+        <div class="sort sort-specs-name" data-sort-by="specs-name"><span class="sort-icons"><i class="fa fa-caret-up"></i><i class="fa fa-caret-down"></i></span><span>Name</span></div>
+        <div class="sort sort-execution-time" data-sort-by="execution-time"><span class="sort-icons"><i class="fa fa-caret-up"></i><i class="fa fa-caret-down"></i></span><span>Execution time</span></div>
+      </div>
+      <div id="listOfSpecifications">
+        <ul id="scenarios" class="spec-list">
+        
+          <a href="loginScenarios.html">
+             
+              <li class="passed spec-name">
+            
+              <span id="scenarioName" class="scenarioname">hepsiburada Login Senaryoları</span>
+              <span id="time" class="time">00:00:20</span>
+            </li>
+          </a>
+          
+        </ul>
+      </div>
+    </aside>
+  
+
+		
+  
+	
+  <div id="specificationContainer" class="details">
+    <header class="curr-spec">
+      <div class="spec-head-wrapper">
+        <h3 class="spec-head" title="C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec">hepsiburada Login Senaryoları</h3>
+        <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
+          <ul>
+            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
+            <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="spec-meta">
+        <div class="spec-filename">
+          <label for="specFileName">File Path</label>
+          <input id="specFileName" value="C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec" readonly/>
+          <button class="clipboard-btn" data-clipboard-target="#specFileName" title="Copy to Clipboard">
+              <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
+          </button>
+        </div>
+        <span class="time">00:00:20</span>
+      </div>
+
+	
+  
+
+	</header>
+	<div id="specItemsContainer">
+	
+    
+  
+
+    
+    
+    
+
+    <div class="content">
+    
+  
+  <span><p>This is an executable specification file. This file follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.
+To execute this specification, use <code>mvn test</code></p>
+</span>
+  
+  
+    <table class="data-table">
+      <tr>
+        <th>userName</th><th>userPassword</th><th>user</th>
+      </tr>
+      <tbody data-rowCount=1>
+        
+          <tr class="row-selector passed selected" data-rowIndex='0'>
+          
+            <td>gaugesenaryo@hubopss.com</td><td>gauge1Q2w3e4r</td><td>Gauge Senaryo</td>
+        </tr>
+        
+      </tbody>
+    </table>
+  
+
+  
+  <span></span>
+  
+
+      
+        
+	
+  <div class="scenario-container passed" data-tablerow='0'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Başarılı Giriş Senaryosu</h3>
+    <span class="time">00:00:20</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> Success Login</span>
+      
+    </div>
+  
+
+	</div>
+  
+  
+
+  
+  
+
+  
+	
+
+  
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:03</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        hepsiburada girişe tıkladı
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+      <div class="screenshot-container">
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-635d6f7c-a43b-459b-92b8-1a1cd636690e.png" rel="lightbox">
+              <img src="../images/screenshot-635d6f7c-a43b-459b-92b8-1a1cd636690e.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-9cea87cf-d2fc-427c-85ff-41e3efb32707.png" rel="lightbox">
+              <img src="../images/screenshot-9cea87cf-d2fc-427c-85ff-41e3efb32707.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+      </div>
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:01</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        giriş sayfası açıldı
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+      <div class="screenshot-container">
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-fd0e34c0-a0dc-4813-a6b1-6abad4be2fc0.png" rel="lightbox">
+              <img src="../images/screenshot-fd0e34c0-a0dc-4813-a6b1-6abad4be2fc0.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+      </div>
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:04</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span class="parameter">"4"</span>
+    
+  
+    
+      <span>
+         saniye bekle
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        kullanıcı adı kısmına 
+      </span>
+    
+  
+    
+      <span class="parameter">"gaugesenaryo@hubopss.com"</span>
+    
+  
+    
+      <span>
+         girildi
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+      <div class="screenshot-container">
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-0db4eab1-31ab-4d91-991b-70d887a2e6c1.png" rel="lightbox">
+              <img src="../images/screenshot-0db4eab1-31ab-4d91-991b-70d887a2e6c1.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+      </div>
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        şifre 
+      </span>
+    
+  
+    
+      <span class="parameter">"gauge1Q2w3e4r"</span>
+    
+  
+    
+      <span>
+         girildi
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+      <div class="screenshot-container">
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-0b4ac154-5a2c-4c79-9391-a9daf6045895.png" rel="lightbox">
+              <img src="../images/screenshot-0b4ac154-5a2c-4c79-9391-a9daf6045895.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+      </div>
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        giriş yap tıklandı
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+      <div class="screenshot-container">
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-b0570d21-fcfd-4d61-9549-393869d7a551.png" rel="lightbox">
+              <img src="../images/screenshot-b0570d21-fcfd-4d61-9549-393869d7a551.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+      </div>
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:03</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span class="parameter">"Gauge Senaryo"</span>
+    
+  
+    
+      <span>
+         ile giriş yapıldı
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+      <div class="screenshot-container">
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-f9c8e818-17e0-4e11-a105-8b2cfcfb4e89.png" rel="lightbox">
+              <img src="../images/screenshot-f9c8e818-17e0-4e11-a105-8b2cfcfb4e89.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+          <div class="screenshot">
+            <a href="../images/screenshot-0b1e4a70-cadd-4302-83c3-20dab2042fda.png" rel="lightbox">
+              <img src="../images/screenshot-0b1e4a70-cadd-4302-83c3-20dab2042fda.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        
+      </div>
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+	
+	</div>
+
+      
+
+    </div>
+    </div>
+
+    
+  
+
+    
+    
+    
+    </div>
+  
+
+		</div>
+	
+
+ 	</div>
+	</main>
+	
+  <footer class="footer">
+    <div class="container">
+      <p>Generated by Gauge HTML Report</p>
+    </div>
+  </footer>
+
+	
+    <script type="text/javascript">
+      var loadingImage = "../images/loading.gif";
+      var closeButton = "../images/close.gif";
+    </script>
+    <script src="../js/lightbox.js"></script>
+    <script src="../js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/auto-complete.min.js" type="text/javascript"></script>
+    <script src="../js/clipboard.min.js" type="text/javascript"></script>
+    <script src="../js/search_index.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    </body>
+  </html>
+

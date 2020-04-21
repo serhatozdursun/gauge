@@ -1,0 +1,8 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="0" package="C:\Users\Serhat&#39;s PC\IdeaProjects\gauge\specs\loginScenarios.spec" time="20.523" timestamp="2020-04-21T19:40:03" name="hepsiburada Login Senaryoları" errors="0" hostname="APS-SERHATOZDURSUN">
+		<properties></properties>
+		<testcase classname="hepsiburada Login Senaryoları" name="Başarılı Giriş Senaryosu 1" time="20.523"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>
