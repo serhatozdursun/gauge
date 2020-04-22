@@ -1,7 +1,7 @@
 <testsuites>
-	<testsuite id="1" tests="1" failures="0" package="C:\Users\Serhat&#39;s PC\IdeaProjects\gauge\specs\loginScenarios.spec" time="22.026" timestamp="2020-04-21T19:58:59" name="hepsiburada Login Senaryoları" errors="0" hostname="APS-SERHATOZDURSUN">
+	<testsuite id="1" tests="1" failures="0" package="C:\Users\Serhat&#39;s PC\IdeaProjects\gauge\specs\loginScenarios.spec" time="30.820" timestamp="2020-04-22T12:13:03" name="hepsiburada Login Senaryoları" errors="0" hostname="APS-SERHATOZDURSUN">
 		<properties></properties>
-		<testcase classname="hepsiburada Login Senaryoları" name="Başarılı Giriş Senaryosu 1" time="22.026"></testcase>
+		<testcase classname="hepsiburada Login Senaryoları" name="Başarılı Giriş Senaryosu 1" time="30.820"></testcase>
 		<system-out></system-out>
 		<system-err></system-err>
 	</testsuite>

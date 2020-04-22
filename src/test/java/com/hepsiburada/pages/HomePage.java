@@ -56,12 +56,12 @@ public class HomePage extends TestBase {
         String name = new String();
         for (int i = 0; i < 150; i++) {
             Thread.sleep(100);
-            name = userName.getText();
+            name = userName.getText().split("\n")[1];
             if (name != null && !name.equals("")) {
                 break;
             }
         }
-        Assert.assertTrue(userName.getText().contains(_userName));
+        Assert.assertEquals(_userName,name);
         return this;
     }
 

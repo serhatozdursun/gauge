@@ -10,7 +10,7 @@ To execute this specification, use `mvn test`
 
 Başarılı Giriş Senaryosu
 -----------
-Tags: Success Login
+Tags: SuccessLogin
 * hepsiburada girişe tıkladı
 * giriş sayfası açıldı
 * "4" saniye bekle
@@ -18,5 +18,4 @@ Tags: Success Login
 * şifre <userPassword> girildi
 * giriş yap tıklandı
 * <user> ile giriş yapıldı
-
 

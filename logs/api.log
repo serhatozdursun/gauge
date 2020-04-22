@@ -2201,3 +2201,78 @@
 21-04-2020 19:28:35.345 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} ile giri\305\237 yap\304\261ld\304\261" parameterizedStepValue:"<user> ile giri\305\237 yap\304\261ld\304\261" parameters:"user" > > 
 21-04-2020 19:29:16.468 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
 21-04-2020 19:29:16.469 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+21-04-2020 20:31:14.974 [Gauge] [INFO] Watching directory: C:\Users\Serhat's PC\IdeaProjects\gauge\specs
+21-04-2020 20:31:14.974 [Gauge] [DEBUG] Found 1 files
+21-04-2020 20:31:14.978 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+21-04-2020 20:31:14.979 [Gauge] [INFO] Initializing specs cache with 1 specs
+21-04-2020 20:31:14.979 [Gauge] [DEBUG] Adding specs from C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+21-04-2020 20:31:14.979 [Gauge] [INFO] Initializing steps cache with 1 steps
+21-04-2020 20:31:14.979 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52490
+21-04-2020 20:31:25.974 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<sec> saniye bekle" > 
+21-04-2020 20:31:25.974 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<sec> saniye bekle" parameters:"sec" > > 
+21-04-2020 20:31:26.040 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"hepsiburada giri\305\237e t\304\261klad\304\261" > 
+21-04-2020 20:31:26.040 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"hepsiburada giri\305\237e t\304\261klad\304\261" parameterizedStepValue:"hepsiburada giri\305\237e t\304\261klad\304\261" > > 
+21-04-2020 20:31:26.104 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"kullan\304\261c\304\261 ad\304\261 k\304\261sm\304\261na <userName> girildi" > 
+21-04-2020 20:31:26.104 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"kullan\304\261c\304\261 ad\304\261 k\304\261sm\304\261na {} girildi" parameterizedStepValue:"kullan\304\261c\304\261 ad\304\261 k\304\261sm\304\261na <userName> girildi" parameters:"userName" > > 
+21-04-2020 20:31:26.127 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"giri\305\237 sayfas\304\261 a\303\247\304\261ld\304\261" > 
+21-04-2020 20:31:26.128 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"giri\305\237 sayfas\304\261 a\303\247\304\261ld\304\261" parameterizedStepValue:"giri\305\237 sayfas\304\261 a\303\247\304\261ld\304\261" > > 
+21-04-2020 20:31:26.151 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\305\237ifre <userPassword> girildi" > 
+21-04-2020 20:31:26.151 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\305\237ifre {} girildi" parameterizedStepValue:"\305\237ifre <userPassword> girildi" parameters:"userPassword" > > 
+21-04-2020 20:31:26.173 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"giri\305\237 yap t\304\261kland\304\261" > 
+21-04-2020 20:31:26.173 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"giri\305\237 yap t\304\261kland\304\261" parameterizedStepValue:"giri\305\237 yap t\304\261kland\304\261" > > 
+21-04-2020 20:31:26.207 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<userName> ile giri\305\237 yap\304\261ld\304\261" > 
+21-04-2020 20:31:26.207 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} ile giri\305\237 yap\304\261ld\304\261" parameterizedStepValue:"<userName> ile giri\305\237 yap\304\261ld\304\261" parameters:"userName" > > 
+21-04-2020 20:31:26.279 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"4\" saniye bekle" > 
+21-04-2020 20:31:26.279 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > > 
+21-04-2020 20:31:26.279 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<user> ile giri\305\237 yap\304\261ld\304\261" > 
+21-04-2020 20:31:26.279 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} ile giri\305\237 yap\304\261ld\304\261" parameterizedStepValue:"<user> ile giri\305\237 yap\304\261ld\304\261" parameters:"user" > > 
+21-04-2020 20:46:46.835 [Gauge] [INFO] Closing connection [127.0.0.1:52868] cause: read tcp 127.0.0.1:52490->127.0.0.1:52868: wsarecv: An existing connection was forcibly closed by the remote host.
+21-04-2020 20:46:47.031 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 8176 has terminated.
+22-04-2020 07:10:35.767 [Gauge] [INFO] Watching directory: C:\Users\Serhat's PC\IdeaProjects\gauge\specs
+22-04-2020 07:10:35.768 [Gauge] [DEBUG] Found 1 files
+22-04-2020 07:10:35.780 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+22-04-2020 07:10:35.781 [Gauge] [INFO] Initializing specs cache with 1 specs
+22-04-2020 07:10:35.781 [Gauge] [DEBUG] Adding specs from C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 07:10:35.781 [Gauge] [INFO] Initializing steps cache with 1 steps
+22-04-2020 07:10:35.782 [Gauge] [INFO] Gauge daemon initialized and listening on port: 59596
+22-04-2020 07:10:47.380 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<sec> saniye bekle" > 
+22-04-2020 07:10:47.381 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<sec> saniye bekle" parameters:"sec" > > 
+22-04-2020 07:10:47.431 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"hepsiburada giri\305\237e t\304\261klad\304\261" > 
+22-04-2020 07:10:47.432 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"hepsiburada giri\305\237e t\304\261klad\304\261" parameterizedStepValue:"hepsiburada giri\305\237e t\304\261klad\304\261" > > 
+22-04-2020 07:10:47.478 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"kullan\304\261c\304\261 ad\304\261 k\304\261sm\304\261na <userName> girildi" > 
+22-04-2020 07:10:47.478 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"kullan\304\261c\304\261 ad\304\261 k\304\261sm\304\261na {} girildi" parameterizedStepValue:"kullan\304\261c\304\261 ad\304\261 k\304\261sm\304\261na <userName> girildi" parameters:"userName" > > 
+22-04-2020 07:10:47.499 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"giri\305\237 sayfas\304\261 a\303\247\304\261ld\304\261" > 
+22-04-2020 07:10:47.499 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"giri\305\237 sayfas\304\261 a\303\247\304\261ld\304\261" parameterizedStepValue:"giri\305\237 sayfas\304\261 a\303\247\304\261ld\304\261" > > 
+22-04-2020 07:10:47.523 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\305\237ifre <userPassword> girildi" > 
+22-04-2020 07:10:47.523 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\305\237ifre {} girildi" parameterizedStepValue:"\305\237ifre <userPassword> girildi" parameters:"userPassword" > > 
+22-04-2020 07:10:47.544 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"giri\305\237 yap t\304\261kland\304\261" > 
+22-04-2020 07:10:47.544 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"giri\305\237 yap t\304\261kland\304\261" parameterizedStepValue:"giri\305\237 yap t\304\261kland\304\261" > > 
+22-04-2020 07:10:47.576 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<userName> ile giri\305\237 yap\304\261ld\304\261" > 
+22-04-2020 07:10:47.576 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} ile giri\305\237 yap\304\261ld\304\261" parameterizedStepValue:"<userName> ile giri\305\237 yap\304\261ld\304\261" parameters:"userName" > > 
+22-04-2020 07:10:47.675 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"4\" saniye bekle" > 
+22-04-2020 07:10:47.675 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} saniye bekle" parameterizedStepValue:"<4> saniye bekle" parameters:"4" > > 
+22-04-2020 07:10:47.676 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<user> ile giri\305\237 yap\304\261ld\304\261" > 
+22-04-2020 07:10:47.676 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} ile giri\305\237 yap\304\261ld\304\261" parameterizedStepValue:"<user> ile giri\305\237 yap\304\261ld\304\261" parameters:"user" > > 
+22-04-2020 09:29:13.861 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 09:29:13.863 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 09:29:39.939 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-04-2020 09:29:39.940 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-04-2020 09:29:40.455 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"SuccessLogin" > 
+22-04-2020 09:29:40.456 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"SuccessLogin" parameterizedStepValue:"SuccessLogin" > > 
+22-04-2020 09:29:41.661 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-04-2020 09:29:41.661 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-04-2020 09:30:08.307 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 09:30:08.309 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 09:30:24.350 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 09:30:24.353 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 12:06:19.159 [Gauge] [INFO] Watching directory: C:\Users\Serhat's PC\IdeaProjects\gauge\specs
+22-04-2020 12:06:19.160 [Gauge] [DEBUG] Found 1 files
+22-04-2020 12:06:19.163 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+22-04-2020 12:06:19.164 [Gauge] [INFO] Initializing specs cache with 1 specs
+22-04-2020 12:06:19.164 [Gauge] [DEBUG] Adding specs from C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 12:06:19.164 [Gauge] [INFO] Initializing steps cache with 1 steps
+22-04-2020 12:06:19.164 [Gauge] [INFO] Gauge daemon initialized and listening on port: 64513
+22-04-2020 12:08:38.285 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 12:08:38.286 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 12:08:50.161 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec
+22-04-2020 12:08:50.194 [Gauge] [INFO] Spec file added / modified: C:\Users\Serhat's PC\IdeaProjects\gauge\specs\loginScenarios.spec

@@ -1,1 +1,1 @@
-var index = {"Tags":{"Success Login":["specs/loginScenarios.html"]},"Specs":{"hepsiburada Login Senaryoları":["specs/loginScenarios.html"]}};
+var index = {"Tags":{"SuccessLogin":["specs/loginScenarios.html"]},"Specs":{"hepsiburada Login Senaryoları":["specs/loginScenarios.html"]}};
