@@ -13,6 +13,8 @@
         <maven.compiler>3.7.0</maven.compiler>
         <gauge.plugin.version>1.3.4</gauge.plugin.version>
         <junit.version>4.12</junit.version>
+        <compiler.source.version>11</compiler.source.version>
+        <compiler.target.version>11</compiler.target.version>
     </properties>
     <dependencies>
         <dependency>
@@ -44,13 +46,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${compiler.source.version}</source>
+                    <target>${compiler.target.version}</target>
+                </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
                         <version>${maven.compiler}</version>
                     </dependency>
-
                 </dependencies>
             </plugin>
         </plugins>

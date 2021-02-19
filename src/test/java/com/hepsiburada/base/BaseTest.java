@@ -19,7 +19,7 @@ public class BaseTest {
         Configuration configuration = new Configuration();
 
         String USER_AGENT = "Mozilla/5.0 (WghrXkuMnF) AppleWebKit/5.0 Chrome/8.0 Safari/5.0";
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + configuration.getProperty("driver.url"));
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + configuration.getProperty("driver.url.for.mac"));
         DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--ignore-certifcate-errors");

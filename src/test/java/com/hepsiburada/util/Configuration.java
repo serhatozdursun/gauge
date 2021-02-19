@@ -15,7 +15,7 @@ public class Configuration {
     }
 
     public void setProp() {
-        String path = System.getProperty("user.dir") + "\\env\\default\\user.properties";
+        String path = System.getProperty("user.dir")+"/env/default/user.properties";
         try {
             InputStream input = new FileInputStream(path);
             prop.load(input);
