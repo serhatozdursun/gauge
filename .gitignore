@@ -1,2 +1,39 @@
-# Project exclude paths
-/target/
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+**/.idea/
+*.iml
+*.iws
+
+**/target/
+
+**/reports/
+
+**/logs/
+*.log
+
+**/
+*.log
+*.out
+
+**/.gauge/
+**/.gauge/screenshots/
+*.png
+
+**/env/default/
+*.properties
+
